@@ -14,5 +14,5 @@ The policy is published via GitHub Pages:
 
 ## Developer Contact
 - **Company:** NBOUND (*"Beyond The Boundaries"*)
-- **Support:** support@nbound.in
+- **Support:** support@sagarpandey.dev
 - **Website:** [https://nbound.in/](https://nbound.in/)
