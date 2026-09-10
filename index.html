@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - SpendPop: Expense & Budget</title>
+  <meta name="description" content="Official Privacy Policy for SpendPop, developed by NBOUND. 100% offline-first expense and budget tracking.">
+  <meta property="og:title" content="SpendPop - Privacy Policy">
+  <meta property="og:description" content="Official Privacy Policy for SpendPop. 100% offline-first expense tracker by NBOUND.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1E6F50;
+      --primary-dark: #14523B;
+      --primary-light: #E8F5EE;
+      --accent: #10B981;
+      --text-main: #0F172A;
+      --text-muted: #64748B;
+      --bg-page: #F8FAFC;
+      --bg-card: #FFFFFF;
+      --border: #E2E8F0;
+      --radius: 16px;
+      --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.03);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      line-height: 1.7;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1E293B 0%, #0F172A 100%);
+      color: white;
+      padding: 48px 36px;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      margin-bottom: 32px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::before {
+      content: "";
+      position: absolute;
+      top: -50px;
+      right: -50px;
+      width: 220px;
+      height: 220px;
+      background: radial-gradient(circle, rgba(30,111,80,0.4) 0%, rgba(0,0,0,0) 70%);
+      border-radius: 50%;
+    }
+
+    .brand-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 6px 14px;
+      border-radius: 9999px;
+      font-size: 0.825rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: #86EFAC;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 1.05rem;
+      color: #94A3B8;
+      max-width: 650px;
+      margin-bottom: 20px;
+    }
+
+    .meta-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 0.875rem;
+      color: #CBD5E1;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: 18px;
+    }
+
+    .meta-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .pill-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+
+    .pill-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      box-shadow: var(--shadow);
+    }
+
+    .pill-icon {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      background: var(--primary-light);
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 1.1rem;
+      margin-bottom: 4px;
+    }
+
+    .pill-title {
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--text-main);
+    }
+
+    .pill-desc {
+      font-size: 0.825rem;
+      color: var(--text-muted);
+      line-height: 1.45;
+    }
+
+    .content-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 40px 36px;
+      box-shadow: var(--shadow);
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-top: 36px;
+      margin-bottom: 14px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #F1F5F9;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h2:first-of-type {
+      margin-top: 0;
+    }
+
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #1E293B;
+      margin-top: 20px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #334155;
+    }
+
+    ul {
+      margin-left: 24px;
+      margin-bottom: 16px;
+      color: #334155;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .perm-box {
+      background: #F8FAFC;
+      border-left: 4px solid var(--primary);
+      border-radius: 0 8px 8px 0;
+      padding: 16px 20px;
+      margin: 14px 0 20px 0;
+    }
+
+    .perm-name {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.85rem;
+      color: var(--primary);
+      font-weight: 600;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .contact-card {
+      background: linear-gradient(135deg, #F0FDF4 0%, #DCFCE7 100%);
+      border: 1px solid #BBF7D0;
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 32px;
+    }
+
+    .contact-card h3 {
+      margin-top: 0;
+      color: #166534;
+    }
+
+    .contact-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--primary);
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.875rem;
+      padding: 10px 18px;
+      border-radius: 8px;
+      transition: background 0.15s ease;
+    }
+
+    .btn:hover {
+      background: var(--primary-dark);
+    }
+
+    .btn-secondary {
+      background: white;
+      color: #1E293B;
+      border: 1px solid #CBD5E1;
+    }
+
+    .btn-secondary:hover {
+      background: #F1F5F9;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+
+    footer a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    @media (max-width: 640px) {
+      header {
+        padding: 32px 20px;
+      }
+      h1 {
+        font-size: 1.75rem;
+      }
+      .content-card {
+        padding: 24px 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand-badge">NBOUND &bull; Beyond The Boundaries</div>
+      <h1>SpendPop: Expense & Budget</h1>
+      <p class="subtitle">Official Privacy Policy & Data Transparency Guide</p>
+      <div class="meta-bar">
+        <div class="meta-item">
+          <strong>Application ID:</strong> in.nbound.spendpop
+        </div>
+        <div class="meta-item">
+          <strong>Effective Date:</strong> September 10, 2026
+        </div>
+        <div class="meta-item">
+          <strong>Architecture:</strong> 100% Offline-First
+        </div>
+      </div>
+    </header>
+
+    <div class="pill-grid">
+      <div class="pill-card">
+        <div class="pill-icon">&check;</div>
+        <div class="pill-title">Zero Cloud Tracking</div>
+        <div class="pill-desc">Expenses and budget details stay 100% on your device in sandboxed SQLite storage.</div>
+      </div>
+      <div class="pill-card">
+        <div class="pill-icon">&oslash;</div>
+        <div class="pill-title">No Account Required</div>
+        <div class="pill-desc">No login, no phone number, no email registration required to use SpendPop.</div>
+      </div>
+      <div class="pill-card">
+        <div class="pill-icon">&lock;</div>
+        <div class="pill-title">Instant Data Deletion</div>
+        <div class="pill-desc">Wipe all your transactions anytime from Settings or by clearing application storage.</div>
+      </div>
+    </div>
+
+    <main class="content-card">
+      <section>
+        <h2>1. Introduction</h2>
+        <p><strong>SpendPop</strong> ("we", "our", or "app"), developed by <strong>NBOUND</strong> (<em>"Beyond The Boundaries"</em>), is designed from the ground up with a privacy-first, offline-first philosophy. We believe your personal financial data belongs solely to you.</p>
+        <p>This Privacy Policy explains how SpendPop handles your data, what device permissions the application requires, and your rights regarding your personal information.</p>
+      </section>
+
+      <section>
+        <h2>2. Zero Cloud Tracking & 100% Offline-First Storage</h2>
+        <ul>
+          <li><strong>Local Device Storage Only:</strong> All financial entries, transactions, amounts, categories, account balances, notes, and monthly budget limits that you record in SpendPop are stored <strong>strictly on your local device</strong> in a private, sandboxed SQLite database (via Drift ORM).</li>
+          <li><strong>No External Servers:</strong> We do not operate external database servers that collect, store, sync, or transmit your financial data. Your expenses never leave your smartphone.</li>
+          <li><strong>No Mandatory Login:</strong> SpendPop does not require you to create an account, register an email address, or provide login credentials to access any feature.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>3. Android Permissions & How We Use Them</h2>
+        <p>SpendPop requests only the permissions strictly required to provide its core features:</p>
+
+        <div class="perm-box">
+          <span class="perm-name">SYSTEM_ALERT_WINDOW (Display Over Other Apps)</span>
+          <p><strong>Purpose:</strong> Allows the optional "Floating Quick-Capture Button" to dock unobtrusively on your screen while using payment or banking apps (like Google Pay, PhonePe, Paytm).</p>
+          <p><strong>Privacy Safeguards:</strong> This button activates <em>only</em> when you explicitly turn it on in Settings. Tapping it opens a lightweight modal to record an expense without leaving your active app. The overlay does <strong>not</strong> read your screen content, does <strong>not</strong> take screenshots, and does <strong>not</strong> inspect your clipboard or accessibility services automatically.</p>
+        </div>
+
+        <div class="perm-box">
+          <span class="perm-name">FOREGROUND_SERVICE & POST_NOTIFICATIONS</span>
+          <p><strong>Purpose:</strong> Required by the Android OS to keep the floating quick-capture button active in memory as a persistent foreground service. A silent notification is displayed while the floating button is active so you are always aware and can dismiss it at any time.</p>
+        </div>
+
+        <div class="perm-box">
+          <span class="perm-name">RECEIVE_BOOT_COMPLETED (Run at Startup)</span>
+          <p><strong>Purpose:</strong> If you have opted to keep the floating quick-capture button enabled, this permission allows Android to safely resume the button when your device restarts.</p>
+        </div>
+
+        <div class="perm-box">
+          <span class="perm-name">INTERNET & ACCESS_NETWORK_STATE</span>
+          <p><strong>Purpose:</strong> Used exclusively for displaying non-intrusive banner advertisements provided by Google AdMob and checking network availability for periodic currency exchange rates.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>4. Third-Party Services (Advertising)</h2>
+        <p>SpendPop integrates <strong>Google AdMob</strong> (Google Mobile Ads SDK) to support continuous free development and updates:</p>
+        <ul>
+          <li>Google AdMob may collect and process pseudonymous technical identifiers, such as:
+            <ul>
+              <li>Google Advertising ID (GAID / AAID)</li>
+              <li>Device model and operating system version</li>
+              <li>Coarse, country/city-level geographic data derived from IP address</li>
+              <li>Ad interaction metrics and crash diagnostics</li>
+            </ul>
+          </li>
+          <li>These third-party services operate under Google's Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></li>
+        </ul>
+        <p>You can manage or reset your advertising ID or opt out of personalized ads at any time through Android settings: <strong>Settings &gt; Google &gt; Ads</strong>.</p>
+      </section>
+
+      <section>
+        <h2>5. Data Retention & Deletion</h2>
+        <ul>
+          <li><strong>Complete User Control:</strong> Because your data resides solely on your physical device, SpendPop retains your financial data only as long as you keep the app installed.</li>
+          <li><strong>Instant Data Wipe:</strong> You can delete all your stored transactions, categories, and accounts at any time inside the app via <strong>Settings &gt; Delete Current Account Data</strong>, or by clearing app storage in Android System Settings.</li>
+          <li><strong>Uninstalling:</strong> Uninstalling SpendPop immediately removes all application database files and local settings from your device.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>6. Children's Privacy</h2>
+        <p>SpendPop does not knowingly collect or solicit personal information from children under the age of 13. The application is intended for general audiences managing personal finances.</p>
+      </section>
+
+      <section>
+        <h2>7. Security</h2>
+        <p>Since all your financial data resides solely within your device's sandboxed local application storage, your device's operating system security (encryption, screen locks, biometric authentication) protects your records against unauthorized access.</p>
+      </section>
+
+      <section>
+        <h2>8. Updates to This Policy</h2>
+        <p>We may update our Privacy Policy periodically. Any modifications will be posted to this page with an updated revision date.</p>
+      </section>
+
+      <div class="contact-card">
+        <h3>Need Help or Have Questions?</h3>
+        <p>If you have any questions or feedback regarding this Privacy Policy or SpendPop, feel free to get in touch with our team at NBOUND:</p>
+        <div class="contact-links">
+          <a class="btn" href="mailto:support@nbound.in">Email: support@nbound.in</a>
+          <a class="btn btn-secondary" href="https://nbound.in/" target="_blank" rel="noopener noreferrer">Visit nbound.in</a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 NBOUND ("Beyond The Boundaries"). All rights reserved.</p>
+      <p>SpendPop: Expense & Budget &bull; Application ID: in.nbound.spendpop</p>
+    </footer>
+  </div>
+</body>
+</html>
